@@ -1,5 +1,6 @@
 import "./navbar.css"
 import Button from "../Button/button"
+import Carrito from "../Cart-Widget/Carrito"
 
 const Navbar = () =>{
 
@@ -16,13 +17,9 @@ const Navbar = () =>{
                 <Button color="darkviolet"> Tazas </Button>
                 <Button color="darkviolet"> Botellas </Button>
             </div>
+        
+            <Carrito/>
 
-        <div class="cart-btn algo">
-            <span class="nav-icon">
-                <i class="fas fa-cart-plus fa-xl"></i>
-            </span>
-                <div class="cart-items">0</div>
-        </div>
         </navbar>
     )
 
