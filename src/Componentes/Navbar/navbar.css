@@ -1,0 +1,28 @@
+
+navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(192, 175, 239);
+    position:sticky;
+    padding: 20px;
+    height: 60px;
+    align-items: center;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.606);
+    z-index: 1;
+    
+}
+
+.algo{
+    background-color: rgb(160, 137, 224) ;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px rgb(254, 254, 254);
+}
+
+.algo:hover{
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.logo{
+    width: 250px;
+}
